@@ -56,14 +56,33 @@ const Home = (props) => {
         <div className="home-main">
           <div className="home-hero">
             <h1 className="home-heading title">
-              BITTERROOT BRAZILLIAN JIU-JITSU
+              <span className="title home-text04">
+                BITTERROOT BRAZILLIAN JIU-JITSU
+              </span>
+              <br></br>
             </h1>
             <h1 className="home-heading1">BITTERROOT BRAZILLIAN JIU-JITSU</h1>
+            <a
+              href="https://www.biblegateway.com/passage/?search=philipians4:13&amp;version=NIV"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link07"
+            >
+              Philipians 4:13
+            </a>
+            <a
+              href="https://www.biblegateway.com/passage/?search=philipians4:13&amp;version=NIV"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link08"
+            >
+              Philipians 4:13
+            </a>
           </div>
           <div className="home-image">
-            <span className="home-text04 card-Heading">OUR MISSION</span>
-            <span className="home-text05">OUR MISSION</span>
-            <span className="home-text06 section-Text">
+            <span className="home-text06 card-Heading">OUR MISSION</span>
+            <span className="home-text07">OUR MISSION</span>
+            <span className="home-text08 section-Text">
               <span className="section-Text">
                 We are committed to offering accessible and personalized
                 Brazilian Jiu-Jitsu lessons for adults and children alike. We
@@ -72,7 +91,7 @@ const Home = (props) => {
               </span>
               <br className="section-Text"></br>
             </span>
-            <span className="home-text09">
+            <span className="home-text11">
               <span className="section-Text">
                 We are committed to offering accessible and personalized
                 Brazilian Jiu-Jitsu lessons for adults and children alike. We
@@ -145,7 +164,7 @@ const Home = (props) => {
       <div id="experience" className="home-experience">
         <div className="home-max-content-width-container">
           <div className="home-heading-container">
-            <h1 className="home-text23 section-Heading">THE EXPERIENCE</h1>
+            <h1 className="home-text25 section-Heading">THE EXPERIENCE</h1>
           </div>
           <div className="home-row">
             <img
@@ -185,8 +204,8 @@ const Home = (props) => {
       </div>
       <div id="about" className="home-information">
         <div className="home-content1">
-          <h1 className="home-text24">INFORMATION</h1>
-          <span className="home-text25">
+          <h1 className="home-text26">INFORMATION</h1>
+          <span className="home-text27">
             <span className="section-Text">•</span>
             <span className="section-Text">
               {' '}
@@ -235,15 +254,15 @@ const Home = (props) => {
             </span>
             <br className="section-Text"></br>
             <br className="section-Text"></br>
-            <span className="section-Text home-text46">•</span>
-            <span className="section-Text home-text47">
+            <span className="section-Text home-text48">•</span>
+            <span className="section-Text home-text49">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <span className="section-Text home-text48">
+            <span className="section-Text home-text50">
               The first class is always free!
             </span>
             <br className="section-Text"></br>
@@ -266,8 +285,8 @@ const Home = (props) => {
       <div id="join" className="home-join">
         <div className="home-content2">
           <div className="home-heading-container1">
-            <h1 className="home-text50 section-Heading">JOIN US!</h1>
-            <span className="home-text51 section-Text">
+            <h1 className="home-text52 section-Heading">JOIN US!</h1>
+            <span className="home-text53 section-Text">
               <span>
                 Below are a few ways to contact our head coach, Anthony. Spots
                 for training are limited, so it&apos;s best for all scheduling
@@ -279,12 +298,12 @@ const Home = (props) => {
           </div>
           <a
             href="mailto:bitterrootbjj@yahoo.com?subject=Class Sign-Up"
-            className="home-link07 navbar-Link"
+            className="home-link09 navbar-Link"
           >
             <span>EMAIL: b</span>
             <span>itterrootbjj@yahoo.com</span>
           </a>
-          <a href="tel:3045500783" className="home-link08 navbar-Link">
+          <a href="tel:3045500783" className="home-link10 navbar-Link">
             <span className="navbar-Link">PHONE: (</span>
             <span>304) 550-0783</span>
           </a>
@@ -297,7 +316,7 @@ const Home = (props) => {
               href="https://www.instagram.com/bitterrootbjj/"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link09"
+              className="home-link11"
             >
               <svg viewBox="0 0 877.7142857142857 1024" className="home-icon">
                 <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
@@ -307,7 +326,7 @@ const Home = (props) => {
               href="https://www.facebook.com/people/Bitterroot-BJJ/100087264384837/"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link10"
+              className="home-link12"
             >
               <svg viewBox="0 0 877.7142857142857 1024" className="home-icon2">
                 <path d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"></path>
@@ -317,7 +336,7 @@ const Home = (props) => {
               href="https://www.instagram.com/sixbladesbjjaustin/"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link11"
+              className="home-link13"
             >
               <span>SIX BLADES</span>
               <br></br>
@@ -327,7 +346,7 @@ const Home = (props) => {
             <svg viewBox="0 0 1024 1024" className="home-icon4">
               <path d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"></path>
             </svg>
-            <span className="home-link12 anchor">
+            <span className="home-link14 anchor">
               Copyright, Deventro Ltd. 2022
             </span>
           </div>
