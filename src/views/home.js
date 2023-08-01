@@ -57,11 +57,11 @@ const Home = (props) => {
           <div className="home-hero">
             <h1 className="home-heading title">
               <span className="title home-text04">
-                BITTERROOT BRAZILLIAN JIU-JITSU
+                BITTERROOT BRAZILIAN JIU-JITSU
               </span>
               <br></br>
             </h1>
-            <h1 className="home-heading1">BITTERROOT BRAZILLIAN JIU-JITSU</h1>
+            <h1 className="home-heading1">BITTERROOT BRAZILIAN JIU-JITSU</h1>
             <a
               href="https://www.biblegateway.com/passage/?search=philipians4:13&amp;version=NIV"
               target="_blank"
